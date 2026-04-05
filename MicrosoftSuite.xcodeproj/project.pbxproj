@@ -35,16 +35,6 @@
 			path = MicrosoftSuite;
 			sourceTree = "<group>";
 		};
-		D158B86E2F82D84900BC4076 /* MicrosoftSuiteTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MicrosoftSuiteTests;
-			sourceTree = "<group>";
-		};
-		D158B8782F82D84900BC4076 /* MicrosoftSuiteUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MicrosoftSuiteUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				D158B8602F82D84800BC4076 /* MicrosoftSuite */,
-				D158B86E2F82D84900BC4076 /* MicrosoftSuiteTests */,
-				D158B8782F82D84900BC4076 /* MicrosoftSuiteUITests */,
 				D158B85F2F82D84800BC4076 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				D158B86D2F82D84900BC4076 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				D158B86E2F82D84900BC4076 /* MicrosoftSuiteTests */,
-			);
 			name = MicrosoftSuiteTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				D158B8772F82D84900BC4076 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				D158B8782F82D84900BC4076 /* MicrosoftSuiteUITests */,
 			);
 			name = MicrosoftSuiteUITests;
 			packageProductDependencies = (
@@ -403,6 +385,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -435,6 +418,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
