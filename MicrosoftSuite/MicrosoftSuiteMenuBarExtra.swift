@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WebKit
 
 @main
 struct MicrosoftLauncherApp: App {
@@ -13,9 +14,7 @@ struct MicrosoftLauncherApp: App {
         MenuBarExtra {
             AppGridView()
         } label: {
-            Image(systemName: "square.grid.3x3.fill")
-                .symbolRenderingMode(.palette)
-                .foregroundStyle(.orange, .red)
+            Image("icon_16")
         }
         .menuBarExtraStyle(.window)
     }
